@@ -70,8 +70,8 @@
   },
   "homepage": "http:///hexadash-react",
   "scripts": {
-    "start": "craco start",
-    "build": "set \"GENERATE_SOURCEMAP=false\" && craco --max-old-space-size=4096 build",
+    "start": "node init && craco start",
+    "build": "node init && set \"GENERATE_SOURCEMAP=false\" && craco --max-old-space-size=4096 build",
     "test": "craco test",
     "eject": "craco eject"
   },

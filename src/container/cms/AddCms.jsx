@@ -108,7 +108,7 @@ const AddRoom = ({ setisAddCms, getAllData, setIsEditCms, isEditCms }) => {
           const file = res?.data?.images.map((item, idx) => ({
             id: idx,
             name: item,
-            prodUrl: `https://hotel-backend-ahus.onrender.com/uploads/${item}`,
+            prodUrl: `https://api.hotelvarunagrand.com/uploads/${item}`,
           }));
           setFilesData(file);
           setLoading(false);

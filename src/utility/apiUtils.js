@@ -9,7 +9,7 @@ const hostname = () => {
       hostUrl = 'http://localhost:4001/api';
       break;
     default:
-      hostUrl = 'https://hotel-backend-ahus.onrender.com/api';
+      hostUrl = 'https://api.hotelvarunagrand.com/api';
       break;
   }
   return hostUrl;
